@@ -1,0 +1,15 @@
+drwxr-xr-x   3 ftp      ftp          4096 Dec 11 12:20 .
+drwxr-xr-x   8 ftp      ftp          4096 Dec 11 12:20 ..
+-rw-r--r--   1 ftp      ftp        280843 Dec 11 12:20 builder.js
+drwxr-xr-x   2 ftp      ftp          4096 Dec 11 12:20 ext
+-rw-r--r--   1 ftp      ftp          4228 Dec 11 12:20 frontend-builder-global-functions.js
+-rw-r--r--   1 ftp      ftp          1676 Dec 11 12:20 frontend-builder-preview.js
+-rw-r--r--   1 ftp      ftp        109534 Dec 11 12:20 frontend-builder-scripts.js
+-rw-r--r--   1 ftp      ftp          9193 Dec 11 12:20 jquery.easypiechart.js
+-rw-r--r--   1 ftp      ftp          3221 Dec 11 12:20 jquery.fitvids.js
+-rw-r--r--   1 ftp      ftp         16117 Dec 11 12:20 jquery.hashchange.js
+-rw-r--r--   1 ftp      ftp         22380 Dec 11 12:20 jquery.magnific-popup.js
+-rw-r--r--   1 ftp      ftp          8278 Dec 11 12:20 library_scripts.js
+-rw-r--r--   1 ftp      ftp          5694 Dec 11 12:20 roles_admin.js
+-rw-r--r--   1 ftp      ftp          8469 Dec 11 12:20 salvattore.min.js
+-rw-r--r--   1 ftp      ftp          8044 Dec 11 12:20 waypoints.min.js

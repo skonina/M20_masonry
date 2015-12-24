@@ -1,0 +1,6 @@
+drwxr-xr-x   2 ftp      ftp          4096 Dec 11 12:20 .
+drwxr-xr-x   5 ftp      ftp          4096 Dec 11 12:20 ..
+-rw-r--r--   1 ftp      ftp          2710 Dec 11 12:20 editor_plugin.dev.js
+-rw-r--r--   1 ftp      ftp          1126 Dec 11 12:20 editor_plugin.js
+-rw-r--r--   1 ftp      ftp         13283 Dec 11 12:20 et_shortcodes_frontend.dev.js
+-rw-r--r--   1 ftp      ftp          6482 Dec 11 12:20 et_shortcodes_frontend.js
