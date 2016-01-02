@@ -8623,7 +8623,12 @@ class ET_Builder_Module_Blog extends ET_Builder_Module {
 
 		if ( have_posts() ) {
 			
-			?><div id="SUPER_GRID" class="et_pb_column_4_4 et_pb_blog_grid" data-columns><?php
+			?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.js"></script>
+			<div class="grid js-masonry"
+  data-masonry-options='{ "itemSelector": ".new-post", "columnWidth": ".grid-sizer", "percentPosition": true}'>
+  <div class="grid-sizer"></div>
+  <?php
 
 			while ( have_posts() ) {
 				the_post();
@@ -8648,8 +8653,7 @@ class ET_Builder_Module_Blog extends ET_Builder_Module {
 					$no_thumb_class = '';
 				} ?>
 
-			<article id="post-<?php the_ID(); ?>" class="column size-1of3 new-post"<?php post_class( 'et_pb_post' . $no_thumb_class ); ?>>
-
+			<article onclick="location.href='<?php the_permalink(); ?>';" style="cursor:pointer;" id="post-<?php the_ID(); ?>"  class="new-post  <?php $cat_color = get_the_category(); echo $cat_color[1]->slug; echo ' ';?>"<?php post_class( 'et_pb_post' . $no_thumb_class ); ?>>
 			<?php
 				et_divi_post_format_content();
 
@@ -8693,7 +8697,7 @@ class ET_Builder_Module_Blog extends ET_Builder_Module {
 							),
 							(
 								'on' === $show_date
-									? sprintf( __( '%s', 'et_builder' ), '<span class="published">' . get_the_date( $meta_date ) . '</span>' )
+									? sprintf( __( '%s', 'et_builder' ), '<span class="published">' . get_the_date('j F') . '</span>' )
 									: '  '
 							),
 							(
@@ -8703,7 +8707,7 @@ class ET_Builder_Module_Blog extends ET_Builder_Module {
 							),
 							(
 								'on' === $show_categories
-									? get_the_category_list(', ')
+									? get_the_category_list(' | ')
 									: '   '
 							),
 							(
@@ -8745,17 +8749,29 @@ class ET_Builder_Module_Blog extends ET_Builder_Module {
 						the_excerpt();
 					}
 
-					if ( 'on' !== $show_content ) {
-						$more = 'on' == $show_more ? sprintf( ' <a href="%1$s" class="more-link" >%2$s</a>' , esc_url( get_permalink() ), __( 'read more', 'et_builder' ) )  : '';
-						echo $more;
-					}
+					// if ( 'on' !== $show_content ) {
+					// 	$more = 'on' == $show_more ? sprintf( ' <a href="%1$s" class="more-link" >%2$s</a>' , esc_url( get_permalink() ), __( 'read more', 'et_builder' ) )  : '';
+					// 	echo $more;
+					// }
 					?>
 			<?php } // 'off' === $fullwidth || ! in_array( $post_format, array( 'link', 'audio', 'quote', 'gallery' ?>
 
 			</article> <!-- .et_pb_post -->
+			
 	<?php
 			} // endwhile
-			?></div><?php
+			?></div>
+
+			  <script>
+			  if (screen.width < 1200) {
+			  	var thingToRemove = document.querySelectorAll(".et_pb_section_0")[0];
+				thingToRemove.parentNode.removeChild(thingToRemove);
+				var thingToRemove = document.querySelectorAll(".et_pb_section_2")[0];
+				thingToRemove.parentNode.removeChild(thingToRemove);
+				}
+			  </script>
+
+			<?php
 
 			if ( 'on' === $show_pagination && ! is_search() ) {
 				echo '</div> <!-- .et_pb_posts -->';
@@ -12973,3 +12989,4 @@ class ET_Builder_Module_Fullwidth_Post_Title extends ET_Builder_Module {
 	}
 }
 new ET_Builder_Module_Fullwidth_Post_Title;
+

@@ -1,0 +1,292 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"local",
+				"localhost"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 159.0,
+		"last_filter": "projec",
+		"selected_items":
+		[
+			[
+				"projec",
+				"Project: Save As"
+			],
+			[
+				"Package In",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Java",
+				"Javatar: Builds..."
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 320.0
+	},
+	"console":
+	{
+		"height": 132.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ted/Sites/m20/public_html/wp-content/themes/M20_masonry"
+	],
+	"file_history":
+	[
+		"/home/ted/Sites/meteor/simple-todos/simple-todos.css",
+		"/home/ted/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/ted/.config/sublime-text-3/Packages/auto-save/README.md",
+		"/home/ted/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/ted/Sites/m20/public_html/wp-content/themes/KutasGigant/includes/builder/main-modules.php",
+		"/home/ted/Sites/m20/public_html/wp-content/themes/KutasGigant/style.css",
+		"/home/ted/Sites/m20/public_html/wp-content/themes/KutasGigant/page.php",
+		"/home/ted/Sites/m20/public_html/wp-content/themes/KutasGigant/functions.php",
+		"/home/ted/Sites/m20/public_html/wp-content/themes/KutasGigant/includes/builder/functions.php",
+		"/home/ted/Sites/m20/public_html/wp-content/themes/KutasGigant/single.php",
+		"/home/ted/Sites/m20/public_html/wp-content/themes/KutasGigant/includes/builder/scripts/salvattore.min.js",
+		"/home/ted/Sites/m20/public_html/wp-content/themes/KutasGigant/index.php",
+		"/home/ted/Sites/m20/public_html/wp-content/themes/Divi/index.php",
+		"/home/ted/Sites/m20/public_html/wp-config.php",
+		"/home/ted/Sites/m20/public_html/wp-content/themes/KutasGigant/wpml-config.xml",
+		"/home/ted/.config/sublime-text-3/Packages/Javatar/Developers/Proto.javatar-packages",
+		"/home/ted/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+		"/usr/share/python-apt/templates/Ubuntu.info",
+		"/home/ted/Dev/KTH/Java1/Programming1/OU5/Polyline1.java",
+		"/usr/share/python-apt/templates/elementary OS.info",
+		"/etc/apt/sources.list.d/elementary.list",
+		"/etc/apt/sources.list",
+		"/etc/apt/sources.list.d/distroshare-trusty.list",
+		"/etc/apt/sources.list.d/hugegreenbug-cmt2-trusty.list"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/ted/Sites/m20/public_html/wp-content/themes/M20_masonry",
+			"/home/ted/Sites/m20/public_html/wp-content/themes/KutasGigant",
+			"KutasGigant",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"width",
+			"SUPER_GRID",
+			"new-post",
+			"SUPER",
+			"article",
+			"salvattore",
+			".size-1of3",
+			"new",
+			"column",
+			"new-column",
+			"column",
+			"salv",
+			"data-columns",
+			"et_pb_blog_",
+			"et_pb_blog",
+			"et_pb_blog_0",
+			"et_section_regular",
+			"<article id=",
+			"et_pb_posts",
+			"et_pb_blog_0",
+			"et_pb_bg_layout_light",
+			"et_pb_posts",
+			"et_pb_post",
+			"et_section_regular",
+			"truncate_post(",
+			"the_content",
+			"data-columns",
+			"data-column",
+			"data-",
+			"the_content(",
+			"the_conte"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "m20.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sty",
+				"~/Sites/m20/public_html/wp-content/themes/M20_masonry/style.css"
+			],
+			[
+				"st",
+				"simple-todos.css"
+			],
+			[
+				"fin",
+				"Find Results"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/m20/public_html/wp-content/themes/M20_masonry/m20.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
